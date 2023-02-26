@@ -9,9 +9,10 @@ import Content from './Content';
 import { MotionFlex, itemAnimationX } from '../../components/Animation';
 import { observer } from 'mobx-react-lite';
 
- const App = () => {
+const App = () => {
   const [isLargerThan991] = useMediaQuery('(min-width: 992px)');
 
-return(
-    
-)
+  return (
+    <></>
+  );
+};
